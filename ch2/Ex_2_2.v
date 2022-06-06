@@ -1,5 +1,3 @@
-Set Warnings "-notation-overridden,-parsing,-deprecated-hint-without-locality".
-
 From Coq Require Import Relations.Relation_Definitions.
 
 Inductive rc {S : Type} (R : relation S) : relation S :=
